@@ -10,10 +10,11 @@
   <body class="bg-white min-h-[100vh]">
     <!-- Header -->
     <header class="w-9/12 mx-auto">
-      <div class="navbar pt-10 ">
+      <!-- Navbar -->
+      <div class="navbar pt-10">
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -41,7 +42,9 @@
               <li><a href="">Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl text-black font-bold text-4xl">Go Ride</a>
+          <a class="btn btn-ghost text-xl text-black font-bold text-4xl"
+            >Go Ride</a
+          >
         </div>
         <div class="navbar-end hidden lg:flex text-black">
           <ul class="menu menu-horizontal px-1 font-bold">
@@ -54,8 +57,98 @@
           </ul>
         </div>
         <div class="navbar-end">
-            <a class="bg-orange-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-orange-400 hover:cursor-pointer">Login</a>
+          <a
+            class="bg-orange-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-orange-400 hover:cursor-pointer"
+            >Login</a
+          >
+        </div>
+      </div>
+      <!-- Banner -->
+      <div class="carousel w-full mt-14 rounded-lg bg-[#FDF1EE] py-6">
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="w-9/12 mx-auto flex justify-between items-center gap-2 flex-row-reverse">
+            <div>
+              <img src="../images/slider/bike1.png" class="" />
+            </div>
+            <div class="w-1/2 space-y-3">
+              <h1 class="text-4xl font-bold text-black">Ride-on R15 V4 with Smile</h1>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-md">Purchase</button>
+            </div>
           </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" >❮</a>
+            <a href="#slide2" >❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            <div class="w-9/12 mx-auto flex justify-between items-center gap-2 flex-row-reverse">
+                <div>
+                  <img src="../images/slider/bike2.png" class="" />
+                </div>
+                <div class="w-1/2 space-y-3">
+                  <h1 class="text-4xl font-bold text-black">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit.
+                  </p>
+                  <button class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-md">Purchase</button>
+                </div>
+              </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1">❮</a>
+            <a href="#slide3">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <div class="w-9/12 mx-auto flex justify-between items-center gap-2 flex-row-reverse">
+                <div>
+                  <img src="../images/slider/bike3.png" class="" />
+                </div>
+                <div class="w-1/2 space-y-3">
+                  <h1 class="text-4xl font-bold text-black">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit.
+                  </p>
+                  <button class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-md">Purchase</button>
+                </div>
+              </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2">❮</a>
+            <a href="#slide4">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+            <div class="w-9/12 mx-auto flex justify-between items-center gap-2 flex-row-reverse">
+                <div>
+                  <img src="../images/slider/bike4.png" class="" />
+                </div>
+                <div class="w-1/2 space-y-3">
+                  <h1 class="text-4xl font-bold text-black">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit.
+                  </p>
+                  <button class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-md">Purchase</button>
+                </div>
+              </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3">❮</a>
+            <a href="#slide1">❯</a>
+          </div>
+        </div>
       </div>
     </header>
   </body>
